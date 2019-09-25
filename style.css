@@ -1,0 +1,225 @@
+
+html
+{
+	font-family: arial, sans serif;
+}
+
+a:hover
+{
+	cursor: url("images/handcursor.png"), pointer;
+}
+
+#header1
+{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row-reverse;
+}
+
+#gmail
+{
+	width:50px;
+	height:30px;
+	background:#FFFFFF;
+	margin-top: 10px;
+	text-align:center;
+	line-height: 27px;
+}
+
+#gmail a:hover
+{
+	text-decoration: underline;
+	color:#5F6368;
+}
+
+#images
+{
+	width:50px;
+	height:30px;
+	background:#FFFFFF;
+	margin-right: 16px;
+	margin-top: 10px;
+	text-align:center;
+	line-height: 27px;
+}
+
+#images a:hover
+{
+	text-decoration: underline;
+	color:#5F6368;
+}
+
+#applications
+{
+	width:30px;
+	height:30px;
+	background:#FFFFFF;
+	margin-top: 10px;
+	line-height: 37px;
+}
+
+#account
+{	
+	width:90px;
+	height:30px;
+	background:#4285f4;
+	margin-right: 20px;
+	margin-left: 8px;
+	margin-top: 10px;
+	border-radius : 2px 2px;
+	text-align:center;
+	line-height: 27px;
+}
+
+header a
+{
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+	font-size: small;
+}
+
+header a:hoover
+{
+	text-decoration: underline;
+}
+
+span.googlelogo
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+#bar
+{
+	display: flex;
+	justify-content: center;
+}
+
+#search
+{
+	font-size: 15px;
+	width: 400px; 
+	height: 40px; 
+	border-radius : 25px 25px;
+	border: 1px solid #dcdcdc;
+	padding-left: 45px;
+	padding-right: 30px;
+}
+
+#search:hover
+{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.buttons
+{
+	display: flex;
+	justify-content: center;
+}
+
+#rg
+{
+	width:150px;
+	height:40px;
+	border: none;
+	margin: 10px 6px 0px 6px;
+	background:#f2f2f2;
+	border-radius : 5px 5px;
+	text-align:center;
+	line-height: 27px;
+	color: #5F6368;
+	font-size:14px
+}
+
+#rg:hover
+{
+	border: 1px solid #808080;
+	color: #000000;
+	cursor: url("images/handcursor.png"), pointer;
+}
+
+#chance
+{
+	width:150px;
+	height:40px;
+	border: none;
+	margin: 10px 6px 0px 6px;
+	background:#f2f2f2;
+	border-radius : 5px 5px;
+	text-align:center;
+	line-height: 27px;
+	color: #5F6368;
+	font-size:14px
+}
+
+#chance:hover
+{
+	border: 1px solid #808080;
+	color: #000000;
+	cursor: url("images/handcursor.png"), pointer;
+}
+
+#loupe
+{
+	position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 20px;
+    width: 20px
+}
+
+span.flink
+{
+	margin-right: 20px;
+}
+
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: rgba(0,0,0,.54);
+	font-size: small;
+	background-color: #f2f2f2;
+}
+
+footer a
+{
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+}
+footer a:hover
+{
+	text-decoration: underline;
+}
+
+footer p
+{
+	margin-left: 20px;
+	margin-bottom: 13px;
+}
+
+#f
+{
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 20px;
+	flex-wrap: wrap-reverse;
+}
+
+#f1
+{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row;
+}
+
+#f2
+{
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+}
